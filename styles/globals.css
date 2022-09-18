@@ -1,0 +1,65 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+ @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+ .rotate-center{animation:rotate-center 30s linear infinite both}
+
+ .rotate-center{
+  z-index: -1;
+  opacity: 0.7;
+ }
+
+
+
+
+
+ .back-insert{
+  z-index: -2;
+  opacity: 1;
+
+ }
+
+
+
+ .ty1{
+  height: calc(100vh);
+ 
+
+ }
+
+ .ty1 img {
+    position:fixed; 
+    left:50%;
+    top:0;
+    max-width:1920px;
+    margin-left:-960px; 
+    /* 图片宽度一半 */
+ }
+
+ .div{
+  overflow:hidden;
+
+ }
+
+
+
+
+
+
