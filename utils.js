@@ -4,4 +4,4 @@ export function formatAddress(address) {
   )}`;
 }
 
-export const padWidth = "1024px";
+export const padWidth = "1000px";

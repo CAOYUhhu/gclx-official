@@ -5,6 +5,8 @@ import Typography from "@mui/material/Typography";
 import { throttle } from "lodash";
 import Tooltip from "@mui/material/Tooltip";
 import { Button,Input,Radio} from 'antd';
+import { Col, Row } from 'antd';
+import React from 'react';
 import { formatUnits } from '@ethersproject/units';
 import "@vetixy/circular-std";
 
@@ -19,7 +21,7 @@ import { padWidth } from "../utils";
 
 const Head = styled.div`
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
   color: white;
   @media only screen and (max-width: ${padWidth}) {
@@ -416,16 +418,18 @@ function Mint() {
       
       id="mint"
     >
-
+      
       <Head >
+      
+        
         <img src='/icons/logo.png' style={{width:'60px',marginTop:'8px'}}></img>
         <h1 style={{fontSize:'27px',marginLeft:'1%'}}>WorldcupChampion</h1>
         
-        <MenuWrapper style = {{marginLeft:'60%', fontSize:'22px'}} >
+        <MenuWrapper style = {{ fontSize:'22px',marginLeft:'55%'}} >
           <MenuItem elementId="About">Back to Homepage</MenuItem>
           
         </MenuWrapper>
-        <img src='/icons/back2.svg' style={{width:'40px',marginLeft:'-1%',marginTop:'2px'}}></img>
+        <img src='/icons/back2.svg' style={{width:'40px',marginLeft:'0%',marginRight:'2%',marginTop:'2px'}}></img>
         
         <ConnectWallet showCollect={true} />
       </Head>
