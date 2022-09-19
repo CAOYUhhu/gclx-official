@@ -437,7 +437,7 @@ function Mint() {
             
             </MenuWrapper> 
           </Col>  
-          <Col span={12} >
+          <Col span={11} >
             
           </Col> 
           <Col span={3.5} >
@@ -451,6 +451,9 @@ function Mint() {
           
           <Col span={1} >
           <ConnectWallet showCollect={true} />
+          </Col> 
+          <Col span={1} >
+          
           </Col> 
 
 
