@@ -417,14 +417,15 @@ function Mint() {
       id="mint"
     >
 
-      <Head style={{marginLeft:'100px'}}>
-        <img src='/icons/logo.png' style={{width:'60px',marginLeft:'-920px',marginTop:'8px'}}></img>
-        <h1 style={{fontSize:'27px'}}>WorldcupChampion</h1>
-        <img src='/icons/back2.svg' style={{width:'40px',marginLeft:'740px',marginTop:'15px'}}></img>
-        <MenuWrapper style = {{marginLeft:'1050px', fontSize:'22px'}} >
+      <Head >
+        <img src='/icons/logo.png' style={{width:'60px',marginTop:'8px'}}></img>
+        <h1 style={{fontSize:'27px',marginLeft:'1%'}}>WorldcupChampion</h1>
+        
+        <MenuWrapper style = {{marginLeft:'60%', fontSize:'22px'}} >
           <MenuItem elementId="About">Back to Homepage</MenuItem>
           
         </MenuWrapper>
+        <img src='/icons/back2.svg' style={{width:'40px',marginLeft:'-1%',marginTop:'2px'}}></img>
         
         <ConnectWallet showCollect={true} />
       </Head>
@@ -446,8 +447,8 @@ function Mint() {
       <Content>
         <Typography
           style={{
-            marginTop: 25,
-            marginLeft: 30,
+            marginTop: '1%',
+            marginLeft: '3%',
             fontSize: '19px',
             
             textAlign: "center",
@@ -462,8 +463,8 @@ function Mint() {
         </Typography>
         <Typography
           style={{
-            marginTop: 2,
-            marginLeft: 30,
+            marginTop: '1%',
+            marginLeft: '3%',
             fontSize: '19px',
             
             textAlign: "center",

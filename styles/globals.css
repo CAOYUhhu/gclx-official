@@ -30,28 +30,44 @@ a {
 
 
 
- .back-insert{
+ .back-insert {
   z-index: -2;
   opacity: 1;
-
+  
  }
+
+
+
 
 
 
  .ty1{
   height: calc(100vh);
  
-
  }
 
- .ty1 img {
+ .back-insert  {
     position:fixed; 
-    left:50%;
+    left:0%;
     top:0;
-    max-width:1920px;
-    margin-left:-960px; 
+    width:100%;
+    /* max-width:1920px; */
+    /* margin-left:calc(100vw)/2;  */
     /* 图片宽度一半 */
  }
+ .rotate-center  {
+  position:fixed; 
+  left:0%;
+  top:0;
+  width:100%;
+  /* max-width:1920px; */
+  /* margin-left:calc(100vw)/2;  */
+  /* 图片宽度一半 */
+}
+
+
+
+
 
  .div{
   overflow:hidden;
