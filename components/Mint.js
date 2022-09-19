@@ -9,6 +9,7 @@ import { Col, Row } from 'antd';
 import React from 'react';
 import { formatUnits } from '@ethersproject/units';
 import "@vetixy/circular-std";
+import 'antd/dist/antd.css'
 
 
 import { get, subscribe } from "../store";
@@ -409,38 +410,57 @@ function Mint() {
   
 
   return (
+    
+   
+    
+
     <Container
       style={{
         width: "100%",
         height: "100%",
         fontFamily:'CircularStd',
+        wordSpacing:'-5px'
       }}
       
       id="mint"
     >
       
-      <Head >
       
-        
-        <img src='/icons/logo.png' style={{width:'60px',marginTop:'8px'}}></img>
-        <h1 style={{fontSize:'27px',marginLeft:'1%'}}>WorldcupChampion</h1>
-        
-        <MenuWrapper style = {{ fontSize:'22px',marginLeft:'55%'}} >
-          <MenuItem elementId="About">Back to Homepage</MenuItem>
+      
+        <Row justify="center"  style={{color:'White',alignItems: 'center' }}>
+          <Col span={0.5}>
+            <img src='/icons/logo.png' style={{width:'60px',marginTop:'8px'}}></img>
+          </Col>
+          <Col span={4} offset={0}>
+            <MenuWrapper style = {{ fontSize:'27px',}} >
+            <MenuItem elementId="About">WorldcupChampion</MenuItem>
+            
+            </MenuWrapper> 
+          </Col>  
+          <Col span={12} >
+            
+          </Col> 
+          <Col span={3.5} >
+            <MenuWrapper style = {{ fontSize:'22px',}} >
+            <MenuItem elementId="About">Back to Homepage</MenuItem>
+            </MenuWrapper>
+          </Col> 
+          <Col span={1} >
+          <img src='/icons/back2.svg' style={{width:'40px',marginTop:'2px'}}></img>
+          </Col> 
           
-        </MenuWrapper>
-        <img src='/icons/back2.svg' style={{width:'40px',marginLeft:'0%',marginRight:'2%',marginTop:'2px'}}></img>
+          <Col span={1} >
+          <ConnectWallet showCollect={true} />
+          </Col> 
+
+
+
+        </Row>
         
-        <ConnectWallet showCollect={true} />
-      </Head>
-
-     
-
-        
-
+   
 
       <Typography
-        style={{ textAlign: "center", marginTop: "10%",color:'white',fontSize: '60px',fontWeight: "bold" }}
+        style={{ textAlign: "center", marginTop: "8%",color:'white',fontSize: '60px',fontWeight: "bold" }}
         variant="h3"
         gutterBottom
         component="div"

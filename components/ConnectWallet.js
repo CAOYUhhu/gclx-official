@@ -69,7 +69,7 @@ const NoCollectWallet = styled.div`
   font-size: 12px;
   margin-top: 1px;
   color: #666;
-  text-align: right;
+
   @media only screen and (max-width: ${padWidth}) {
     width: 100%;
     margin-top: 10px;
