@@ -9,7 +9,7 @@ export default function Home() {
     <div className='div1'>
       <Head>
         <title> World Cup 2022 NFT</title>   
-        
+        <link rel="icon" href="/favicon.png" />
       </Head>
       
       <Typography className='ty1'>

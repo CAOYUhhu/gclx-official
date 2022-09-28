@@ -432,21 +432,39 @@ function Mint() {
             <img src='/icons/logo.png' style={{width:'60px',marginTop:'8px'}}></img>
           </Col>
           <Col span={4} offset={0}>
+          <a
+              href="https://www.worldcupchampion.xyz/"
+              style={{color:"white"}}>
             <MenuWrapper style = {{ fontSize:'27px',}} >
             <MenuItem elementId="About">WorldcupChampion</MenuItem>
             
             </MenuWrapper> 
+            </a>
           </Col>  
           <Col span={11} >
             
           </Col> 
           <Col span={3.5} >
             <MenuWrapper style = {{ fontSize:'22px',}} >
-            <MenuItem elementId="About">Back to Homepage</MenuItem>
+            
+              <a
+              href="https://www.worldcupchampion.xyz/"
+              style={{color:"white"}}>
+              <MenuItem elementId="About">
+                Back to Homepage
+              </MenuItem>
+              </a>
+            
             </MenuWrapper>
           </Col> 
           <Col span={1} >
+          <a
+              href="https://www.worldcupchampion.xyz/"
+              style={{color:"white"}}>
           <img src='/icons/back2.svg' style={{width:'40px',marginTop:'2px'}}></img>
+          </a>
+
+
           </Col> 
           
           <Col span={1} >
